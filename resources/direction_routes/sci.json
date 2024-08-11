@@ -1,0 +1,163 @@
+{
+    "Routes" :
+    [
+        {
+            "RouteID" : "SCItoART",
+            "RouteWalking": [
+                {
+                    "directions": "Walk down to sidewalk"
+                },
+                {
+                    "directions": "Walk to the end"
+                },
+                {
+                    "directions": "On the corner, turn right to crosswalk"
+                },
+                {
+                    "directions": "Cross the street"
+                },
+                {
+                    "directions": "Walk straight, then turn right to automatic sliding doors"
+                }
+
+            ]
+        },
+        {
+            "RouteID": "SCItoARTX",
+            "RouteWalking": [
+                {
+                    "directions": "Walk down to sidewalk"
+                },
+                {
+                    "directions": "Walk to the end"
+                },
+                {
+                    "directions": "On the corner, turn right to crosswalk"
+                },
+                {
+                    "directions": "Cross the street"
+                },
+                {
+                    "directions": "Walk straight, then turn left to automatic sliding doors"
+                }
+            ]
+        },
+        {
+            "RouteID" : "SCItoBATL",
+            "RouteADA" : [
+                {
+                    "directions": "Head to ramp",
+                    "image": "sciexit3.png"
+                },
+                {
+                    "directions": "Take ramp to bottom",
+                    "image": "sciramp0.png"
+                },
+                {
+                    "directions": "Cross the street",
+                    "image": "cloudcir0.png"
+                },
+                {
+                    "directions": "Follow along the path",
+                    "image": "cloudcir1.png"
+                },
+                {
+                    "directions": "Cross the street and head left to small overpass",
+                    "image": "cloudcir2.png"
+                },
+                {
+                    "directions": "Head down this path to Batmale Hall Entrance",
+                    "image": "btmlentrance0.png"
+                }
+            ],
+            "RouteWalking": [
+                {
+                    "directions": "Walk to Stairs",
+                    "image": "sciexit3.png"
+                },
+                {
+                    "directions": "Walk down to the bottom of the stairs"
+                },
+                {
+                    "directions": "Cross the street",
+                    "image": "cloudcir0.png"
+                },
+                {
+                    "directions": "Walk along the path",
+                    "image": "cloudcir1.png"
+                }, 
+                {
+                    "directions": "Cross the street and head left to small overpass",
+                    "image": "cloudcir2.png"
+                },
+                {
+                    "directions": "Walk down this path to Batmale Hall Entrance",
+                    "image": "btmlentrance0.png"
+                }
+            ]
+        },
+        {
+            "RouteID" : "SCItoJDVL",
+            "RouteADA": [
+                {
+                    "directions": "Head to ramp",
+                    "image": "sciexit3.png"
+                }, 
+                {
+                    "directions": "Take ramp to bottom",
+                    "image": "sciramp0.png"
+                }, 
+                {
+                    "directions":"Cross the street",
+                    "image": "cloudcir0.png"
+                },
+                {
+                    "directions":"Go under bridge and follow path to arrow",
+                    "image": "creativeunder0.png"
+                }, 
+                {
+                    "directions":"Turn left and follow the curved path to destination",
+                    "image": "creativepath0.png"
+                }
+            ],
+            "RouteWalking": [
+                {
+                    "directions": "Walk to stairs",
+                    "image": "sciexit3.png"
+                }, 
+                {
+                    "directions": "Head to the bottom of the stairs"
+                }, 
+                {
+                    "directions": "Cross the street",
+                    "image": "cloudcir0.png"
+                },
+                {
+                    "directions":"Walk under bridge and follow path to arrow",
+                    "image": "creativeunder0.png"
+                }, 
+                {
+                    "directions":"Turn left and follow the curved path to destination",
+                    "image": "creativepath0.png"
+                }
+            ]
+        },
+        {
+            "RouteID" : "SCItoMUB",
+            "RouteWalking" : [
+                {
+                    "directions": "Walk down to sidewalk",
+                    "image": "sciexit0.jpg"
+                }, 
+                {
+                    "directions": "Cross the crosswalk to the other side of sidewalk",
+                    "image": "sciexit1.jpg"
+                }, 
+                {
+                    "directions": "Walk past parking lot to MUB building on the left",
+                    "image": "sciexit2.jpg"
+                }
+            ]
+        }
+    ]
+}

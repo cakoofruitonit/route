@@ -1,0 +1,37 @@
+[
+    {
+        "routeID": "SCItoARTX",
+        "urlADA": "https://www.google.com/maps/d/embed?mid=1CKapTJ7lNP_e5lSH0HxbZc8XfgrwJYY&ehbc=2E312F&noprof=1",
+        "urlWalking": "https://www.google.com/maps/d/embed?mid=1VcNWGcqXNLSv0bEEldm1q6FYYoXQNTQ&ehbc=2E312F&noprof=1"
+    },   
+    {
+        "routeID": "SCItoBATL",
+        "urlADA": "https://www.google.com/maps/d/embed?mid=1dsXjhLe0vZImd8qI5H47r1fMRI2DIj0&ehbc=2E312F&noprof=1",
+        "urlWalking": "https://www.google.com/maps/d/embed?mid=1IA_vTicS0E2gYV4o9pyqAV1BvRZ4SiM&ehbc=2E312F&noprof=1"
+    },
+    {
+        "routeID": "SCItoCLOUD",
+        "urlADA": "https://www.google.com/maps/d/embed?mid=1tW8KokmvufS_BDoBx4NmLalH3qPy-7c&ehbc=2E312F&noprof=1",
+        "urlWalking": "https://www.google.com/maps/d/embed?mid=1R74SX1RDdIOHN32StNaQ8o46KMxi7_4&ehbc=2E312F&noprof=1"
+    },
+    {
+        "routeID": "SCItoMUB",
+        "urlADA": "https://www.google.com/maps/d/embed?mid=1NVMBN38kFLWF_Z2h0GswSgROs-6u4iA&ehbc=2E312F&noprof=1",
+        "urlWalking": "https://www.google.com/maps/d/embed?mid=1IO6q92-0lMaS-qFiuQbym2fciK7I23s&ehbc=2E312F&noprof=1"
+    },
+    {
+        "routeID": "SCItoJDVL",
+        "urlADA": "https://www.google.com/maps/d/embed?mid=1r9VV7uAHGkpOsDvJpHO6WzMOzttUyKE&ehbc=2E312F&noprof=1",
+        "urlWalking":"https://www.google.com/maps/d/embed?mid=18TRlhl9PayGPoAIdZd3ba5V_hj1G5dQ&ehbc=2E312F&noprof=1"
+    },
+    {
+        "routeID": "SCItoLIBR",
+        "urlADA": "https://www.google.com/maps/d/embed?mid=1IfaAbk3dUcN1GK76pFusY9ZJt3zB7w0&ehbc=2E312F&noprof=1",
+        "urlWalking": "https://www.google.com/maps/d/embed?mid=1gL_MrLqFitOMejTpDPSotK4g1yhBZPk&ehbc=2E312F&noprof=1"
+    },
+    {
+        "routeID": "SCItoWELL",
+
+        "urlWalking": "https://www.google.com/maps/d/embed?mid=1SDZL5-vjPFHGKrTlv7XBmT-7iHh-o70&ehbc=2E312F&noprof=1"
+    }
+]

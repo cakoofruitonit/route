@@ -1,0 +1,80 @@
+{"Routes" :
+  [
+    {
+    "RouteID" : "SCItoMUB",
+    "Route" :[
+              {
+                  "AbleBodied": "Walk down to sidewalk",
+                  "ImageAbleBodied": "sciexit0.jpg"
+              }, 
+              {
+                  "AbleBodied": "Cross the crosswalk to the other side of sidewalk",
+                  "ImageAbleBodied": "sciexit1.jpg"
+              }, 
+              {
+                  "AbleBodied": "Walk past parking lot to MUB building on the left",
+                  "ImageAbleBodied": "sciexit2.jpg",
+                  "isEnd": true,
+                  "EntranceType": "Entrance is the FIRST DOOR at the arrow"
+              }
+          ]
+      },
+      {
+        "RouteID" : "SCItoBATL",
+        "Route":[
+              {
+                  "ForAll": "Walk to Stairs/Ramp",
+                  "ImageForAll": "sciexit3.jpg"
+              }, 
+              {
+                  "ADA": "Take ramp to bottom",
+                  "ImageADA": "sciramp0.jpg",
+                  "AbleBodied": "Walk down to the bottom of the stairs"
+              }, 
+              {
+                  "ForAll":"Cross the street",
+                  "ImageForAll": "cloudcir0.jpg"
+              },
+              {
+                  "ForAll":"Walk along the path",
+                  "ImageForAll": "cloudcir1.jpg"
+              }, 
+              {
+                  "ForAll":"Cross the street to this path",
+                  "ImageForAll": "cloudcir2.jpg"
+              },
+              {
+                  "ForAll":"Walk down this path to the Entrance",
+                  "ImageForAll": "btmlentrance0.jpg"
+              }
+
+        ]
+      },
+      {
+        "RouteID" : "SCItoJDVL",
+        "Route":[
+              {
+                  "ForAll": "Walk to Stairs/Ramp",
+                  "ImageForAll": "sciexit3.jpg"
+              }, 
+              {
+                  "ADA": "Take ramp to bottom",
+                  "ImageADA": "sciramp0.jpg",
+                  "AbleBodied": "Walk down to the bottom of the stairs"
+              }, 
+              {
+                  "ForAll":"Cross the street",
+                  "ImageForAll": "cloudcir0.jpg"
+              },
+              {
+                  "ForAll":"Walk straight to the arrow",
+                  "ImageForAll": "creativeunder0.jpg"
+              }, 
+              {
+                  "ForAll":"Follow the path to arrow",
+                  "ImageForAll": "creativepath0.jpg"
+              }
+        ]
+      }
+    ]
+  }

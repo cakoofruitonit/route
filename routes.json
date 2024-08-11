@@ -1,0 +1,90 @@
+{"Routes" :
+  [
+    {
+    "RouteID" : "SCItoMUB",
+    "Route" :[
+              {
+                  "PathType": "Stairs",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": "Down",
+                  "turnNext": "straight",
+                  "isEnd": false,
+                  "destination": null
+              }, 
+              {
+                  "PathType": "Xing",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": null,
+                  "turnNext": "straight",
+                  "isEnd": false,
+                  "destination": null
+              }, 
+              {
+                  "PathType": "Parking",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": null,
+                  "turnNext": "left",
+                  "isEnd": true,
+                  "destination": "FIRST DOOR",
+                  "EntranceType": "Entrance"
+              }
+          ]
+      },
+      {
+        "RouteID" : "SCItoBATL",
+        "Route":[
+              {
+                  "PathType": "Flat_Plain",
+                  "EndPoint": "Stairs",
+                  "ElevationChange": null,
+                  "turnNext": "straight",
+                  "isEnd": false,
+                  "destination": null
+              }, 
+              {
+                  "PathType": "Ramp",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": "Down",
+                  "turnNext": "straight",
+                  "isEnd": false,
+                  "destination": null
+              }, 
+              {
+                  "PathType": "Xing",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": null,
+                  "turnNext": "straight",
+                  "isEnd": false,
+                  "destination": null
+              }, 
+              {
+                  "PathType": "Sidewalk",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": null,
+                  "turnNext": "left",
+                  "isEnd": false,
+                  "destination": null
+              },
+              {
+                  "PathType": "Xing",
+                  "EndPoint": "Sidewalk",
+                  "ElevationChange": null,
+                  "turnNext": "straight",
+                  "isEnd": false,
+                  "destination": null
+            }, 
+              {
+                  "PathType": "Flat_Plain",
+                  "EndPoint": "Flat_Plain",
+                  "ElevationChange": null,
+                  "turnNext": "left",
+                  "isEnd": true,
+                  "destination": "FIRST DOOR",
+                  "EntranceType": "Entrance"
+              }
+
+        ]
+      }
+
+    ]
+  }

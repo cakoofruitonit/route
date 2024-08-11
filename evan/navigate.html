@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="selectText">Select a starting point and destination:</div>
+  <div class="selectTable">
+    <div2>
+      <p class="startPointText">
+        Starting Point:
+      </p>
+      <p2>
+        <select class = "chooseLocation1" id="choose-location1" name="list-of-locations1">
+          <option name="stop-1" value="ENTR-Main" selected="selected">Main Entrance</option>
+          <option name="stop-3" value="EIGHT-Main">Room 8</option>
+          <option name="stop-4" value="ELEVEN-Main">Room 11</option>
+          <option name="stop-3" value="FORTEENFIFTEEN-Main">Room 14 / 15</option>
+          <option name="stop-2" value="TWOTWOTHREE-Main">Room 222 / 223</option>
+          <option name="stop-2" value="TWOFOURFIVE-Main">Room 224 / 225</option>
+        </select>
+      </p2>
+    </div2>
+
+    <p3>
+      <div3>
+        <p2 style="margin-top: 10px"class="destinationText">
+          <br>Destination:   
+        </p2>
+        <select class = "chooseLocation2" id="choose-location2" name="list-of-locations2">
+          <option name="stop-1" value="ENTR-Main" selected="selected">Main Entrance</option>
+          <option name="stop-3" value="EIGHT-Main">Room 8</option>
+          <option name="stop-4" value="ELEVEN-Main">Room 11</option>
+          <option name="stop-2" value="TWOTWOTHREE-Main">Room 222 / 223</option>
+          <option name="stop-2" value="TWOFOURFIVE-Main">Room 224 / 225</option>
+        </select>
+      </div3>
+    </p3>
+    <div class="enterButtonDiv">
+      <button id="enter" class = "enter" onclick="useDirectionButton()">DIRECTIONS 🔍</button>
+    </div>
+  </div>
+
+  <div class="directions" id="destination">
+    <span class="dir" id="direct"></span>
+    
+    <div class="path" id="dirText">
+      <span class="error" id="error"></span>
+      <br>
+      <span class="line1" id="textline1"></span>
+      <span class="line2" id="textline2"></span>
+      <span class="line3" id="textline3"></span>
+      <span class="line4" id="textline4"></span>
+      <span class="line5" id="textline5"></span>
+      <span class="line6" id="textline6"></span>
+      <span class="line7" id="textline7"></span>
+      <div class ="imageDiv" id="imageDiv"></div>
+      <div id="change-image-div" class="change-image-div">
+        <button id="change-image-btn" class="change-image-btn" onclick="changeImageSize()">
+          <img id="change-image" class="change-image" src="images/shrink.png">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <p class = "next">
+    <button class="previous-btn" onclick="buttonPrevious()">PREV</button>
+    <button class="next-btn" onclick="buttonNext()">NEXT</button>
+  </p>
+
+  <div class="fullscreen-div" id="fullscreen-div"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
